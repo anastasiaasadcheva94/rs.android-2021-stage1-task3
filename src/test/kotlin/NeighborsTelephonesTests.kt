@@ -51,4 +51,10 @@ class NeighborsTelephonesTests {
         val result = finder.findAllNumbersFromGivenNumber("-634756385")
         assertNull(result)
     }
+
+    @Test
+    fun testFinder4() {
+        val result = finder.findAllNumbersFromGivenNumber("634756385a")
+        assertNull(result)
+    }
 }
